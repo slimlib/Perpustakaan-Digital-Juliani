@@ -1,35 +1,154 @@
 <html>
+
 <head>
-<title>Perpustakaan Digital Juliani</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan Digital Juliani</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://kcic.co.id/lkapp/wp-content/uploads/2021/07/Perpustakaan-Umum-Freedom-Institute-14-2.jpg'); /* Gambar latar Perpustakaan Freedom */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        header {
+            background-color: rgba(119, 195, 236, 0.8);
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+
+        header img {
+            height: 50px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 8px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #77C3EC;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+
+        .pulsating-circle {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            width: 30px;
+            height: 30px;
+            background-color: #3498db;
+            border-radius: 50%;
+            animation: pulse 2s infinite ease-in-out;
+            box-shadow: 0 0 10px rgba(52, 152, 219, 0.8);
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+
+            50% {
+                transform: scale(1.5);
+                opacity: 0.7;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
 </head>
+
 <body>
-<h1>Perpustakaan Digital Juliani</h1>
-    <html>
-<head>
-    <title>Membuat Garis Horizontal</title>
-</head>
-<body>
-    <hr />
+    <!-- Header -->
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Logo_of_North_Sumatra_University.svg/800px-Logo_of_North_Sumatra_University.svg.png"
+            alt="Logo Website" />
+        <h1>Perpustakaan Juliani</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="biodata.html">About</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Halo👋</h1>
+        <p>Selamat datang di website Perpustakaan Digital Juliani. Salam kenal, saya mahasiswa jurusan Perpustakaan dan
+            Sains Informasi di Universitas Sumatera Utara. Website ini dibuat guna memenuhi tugas dan praktik Mata
+            Kuliah Pengembangan Web Perpustakaan. Berikut ini adalah <b><i>homepage</i></b> yang saya buat.</p>
+
+        <h3>Kerja sama dengan Perpustakaan lain</h3>
+        <a href="https://perpustakaanfreedom.com/">Perpustakaan Freedom</a>
+
+        <!-- Rekomendasi Buku -->
+        <h3>Rekomendasi Buku</h3>
+        <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+
+            <!-- Buku 1 -->
+            <div style="text-align: center; width: 150px;">
+                <img src=".jpg" alt="Cover Buku 1" style="width: 100%; border-radius: 8px;">
+                <p><b>Judul:</b> Google Resume</p>
+                <p><b>Penulis:</b> Gay Laakmann McDowell</p>
+            </div>
+
+            <!-- Buku 2 -->
+            <div style="text-align: center; width: 150px;">
+                <img src=".jpg" alt="Cover Buku 2" style="width: 100%; border-radius: 8px;">
+                <p><b>Judul:</b> Untuk Apa Aku ada di Dunia ini?</p>
+                <p><b>Penulis:</b> Rick Warren</p>
+            </div>
+
+            <!-- Buku 3 -->
+            <div style="text-align: center; width: 150px;">
+                <img src=".jpg" alt="Cover Buku 3" style="width: 100%; border-radius: 8px;">
+                <p><b>Judul:</b> Mantappu Jiwa</p>
+                <p><b>Penulis:</b> Jerome Polin</p>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Pulsating Circle Animation -->
+    <div class="pulsating-circle"></div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 All rights reserved</p>
+    </footer>
 </body>
+
 </html>
-    <h2>Halo👋</h2>
-<p>Selamat datang di website Perpustakaan Digital Juliani. Salam kenal, saya mahasiswa jurusan Perpustakaan dan Sains Informasi di Universitas Sumatera Utara. Website ini dibuat guna memenuhi tugas dan praktik Mata Kuliah Pengembangan Web Perpustakaan. Berikut ini adalah <b><i>homepage</i></b> yang saya buat. 
-</p>
-</body>
-    <head>
-    <title>Membuat Garis Horizontal</title>
-</head>
-<body>
-    <hr />
-</body>
-</html>
-<html> <!--akhir dokumen HTML-->
-<h3>Kerja sama dengan Perpustakaan lain</h3>
-<a href="https://perpustakaanfreedom.com/"target="_blank">Perpustakaan Freedom </a> 
-<p></p>
-<img src="https://kcic.co.id/lkapp/wp-content/uploads/2021/07/Perpustakaan-Umum-Freedom-Institute-14-2.jpg" border="2"/>
-<p>Halaman Lainnya</p>
-<ul>
-    <li><a href="biodata.html">About Me</a></li>
-    <li><a href="form.html">Contact Us</a></li>
-</ul>
+
