@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Google Resume",
+        "author": "Gayle Laakmann McDowell",
+        "synopsis": "Panduan lengkap untuk mendapatkan pekerjaan di Google.",
+        "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348714874i/10673823.jpg",
+        "link": "https://books.google.com/books/about/The_Google_Resume.html?id=_TbfM1lA-qYC"
+    },
+    {
+        "title": "Untuk Apa Aku Ada di Dunia ini?",
+        "author": "Rick Warren",
+        "synopsis": "Membantu menemukan tujuan hidup melalui refleksi.",
+        "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1621523349i/54221600.jpg",
+        "link": "https://www.goodreads.com/book/show/54221600"
+    }
+    // Tambahkan buku lainnya di sini...
+]
